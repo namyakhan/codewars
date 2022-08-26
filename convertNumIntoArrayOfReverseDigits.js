@@ -8,12 +8,11 @@ Example(Input => Output):
 
 
 
+
+
+
 ////SOLUTION🚀
 function digitize(n) {
-
- 
 const arrOfDigits = Array.from(String(n), Number);
-  
- return arrOfDigits.reverse();
-  
+return arrOfDigits.reverse();
 }
